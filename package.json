@@ -1,0 +1,29 @@
+{
+  "name": "fbi_system",
+  "version": "1.0.0",
+  "description": "sistema online con un servidor Express que utilice JWT para la autorizacion de agentes que visiten las paginas restringidas",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon --env-file=.env index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DoloresMoriconi/FBI_System.git"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "author": "Dolores Moriconi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DoloresMoriconi/FBI_System/issues"
+  },
+  "homepage": "https://github.com/DoloresMoriconi/FBI_System#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
