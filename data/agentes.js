@@ -1,4 +1,4 @@
-export const agentes = [
+export const results = [
   {
     email: 'who@fbi.com',
     password: 'me',
